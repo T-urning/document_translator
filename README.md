@@ -1,7 +1,7 @@
 # 文档级中翻英小工具
 ## 主要功能
 - 可翻译任意长度的 doc/docx 文档（不过受百度翻译API调用频率的限制，长文档翻译一般需要较长时间，特别是表格较多的文档）
-- 不仅限于中文翻英文（可在 `cofig.yaml` 配置文件中指定源语言和目标语言）
+- 不局限于中文翻英文（可在 `cofig.yaml` 配置文件中指定源语言和目标语言）
 - **翻译结果能够保留源文档的段落样式**
 
 ## 效果图
@@ -17,7 +17,7 @@
 
 需要先安装 Python（建议通过 [Anaconda](https://www.anaconda.com/) 安装），以及 `requirements.txt` 中指定的包，版本不一定需要完全对应。
 
-通过 `requirements.txt` 安装包有快捷方法（前提是电脑上安装了 Anaconda），先使用命令行切换到该项目的根目录下，执行如下命令：
+通过 `requirements.txt` 安装包有快捷方法（前提是电脑上安装了 Anaconda），先使用命令行切换到该项目的根目录下，再执行如下命令即可：
 
 ```shell
 pip freeze > requirements.txt
@@ -37,7 +37,7 @@ pip freeze > requirements.txt
 - appkey：与上述 appid 配套的 appkey
 - file_path：待翻译文档路径
 - save_path：翻译结果保存路径
-- src_language：待翻译文档所属语言，默认为 ‘zh’，所有可选的语言可到[百度翻译 API 官网](https://fanyi-api.baidu.com/product/113) 查看
+- src_language：待翻译文档所属语言，默认为 ‘zh’，所有可选的语言可到 [百度翻译 API 官网](https://fanyi-api.baidu.com/product/113) 查看
 - tar_language：目标语言，默认为 ‘en’，同上
 
 #### 运行
