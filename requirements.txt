@@ -1,0 +1,4 @@
+python-docx==0.8.10
+tqdm==4.59.0
+requests==2.22.0
+PyYAML==5.1.2

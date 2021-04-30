@@ -1,0 +1,13 @@
+API:
+  appid: 132234444 #这里改成你自己申请的百度appid，不用加引号
+  appkey: fdsfdsfs12324 #这里改成你自己的百度appkey， 不用加引号
+FILE:
+  # doc 文档路径
+  file_path: test_document.docx
+  # 翻译结果保存路径
+  save_path: eng_document.docx
+FUNC:
+  # 源文档所属的语言，当等于 auto 时程序会自动识别所属语言
+  src_language: zh
+  # 目标语言
+  tar_language: en
